@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinite Group</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body class="font-inter bg-firstColor">
+    <!-- Navbar -->
+    <nav class="relative container mx-auto py-14 px-5 md:px-0">
+        <!-- Flex Container -->
+        <div class="flex items-center justify-between">
+            <!-- Logo -->
+            <h1 class="text-3xl font-black text-black">
+                Infinite <span class="text-secondColor">Group</span>
+            </h1>
+            <!-- Menu Items -->
+            <div class="space-x-7 text-sm text-black font-medium hidden md:flex">
+                <a href="#home" class="hover:text-secondColor">Home</a>
+                <a href="#features" class="hover:text-secondColor">Feature</a>
+                <a href="#about" class="hover:text-secondColor">About Us</a>
+            </div>
+            <!-- Button -->
+            <div class="space-x-3 md:space-x-7">
+                <a 
+                href="#"
+                class="text-black font-medium">
+                ENG
+            </a>
+            <a 
+                href="#"
+                class=" p-4 px-5 text-white font-semibold bg-secondColor
+                rounded-lg hover:bg-thirdColor md:px-9 md:p-6">
+                Explore
+            </a>
+            </div>
+            <!-- Hamburger Icon -->
+            <button id="menu-btn" class="block hamburger md:hidden
+            focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+        </div>
+    </nav>
+    <!-- Navbar -->
+
+
+    <section id="hero" class="mb-40">
+        <!-- Flex Container -->
+        <div class="container flex flex-col-reverse justify-between items-center md:items-start
+            md:pl-0 md:pr-5 mx-auto md:flex-row">
+
+            <!-- left item -->
+            <div class="flex flex-col items-center mt-8 md:items-start">
+                <p class="text-xs text-center mb-4
+                    font-medium md:text-xs md:text-left text-secondColor
+                    flex after:content-[''] after:w-[280px] after:h-[2px] after:bg-lineColor
+                    after:mt-2.5 after:ml-2 md:after:w-[290px]">
+                    Your Dream Home Awaits
+                </p>
+                <h1 class="max-w-lg text-[2.9rem] mb-7 font-black text-center text-black md:text-start">Homes That Match</h1>
+                <p class="max-w-[440px] text-center text-black leading-6 text-[13px] mb-9 md:text-start">
+                    Better Homes & Gardens encouranges its clients to expect more from
+                    their realtor and promises they're up to the challenge
+                </p>
+                <a 
+                    href="#"
+                    class=" p-4 px-16 text-white font-semibold bg-secondColor
+                    rounded-lg hover:bg-thirdColor mb-14">
+                    Explore
+                </a>
+                <div class="flex space-x-16">
+                    <div>
+                        <h1 class="text-black text-[2rem] font-semibold"><span class="num text-black text-[2rem] font-semibold" data-val="1000">0000</span>+</h1>
+                        <p class="text-secondColor text-[0.8rem] font-semibold">Premium Product</p>
+                    </div>
+                    <div>
+                        <h1 class="text-black text-[2rem] font-semibold"><span class="num text-black text-[2rem] font-semibold" data-val="735">000</span>+</h1>
+                        <p class="text-secondColor text-[0.8rem] font-semibold">Happy Customer</p>
+                    </div>
+                    <div>
+                        <h1 class="text-black text-[2rem] font-semibold"><span class="num text-black text-[2rem] font-semibold" data-val="250">000</span>+</h1>
+                        <p class="text-secondColor text-[0.8rem] font-semibold">Facilities</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Item -->
+            <div class="w-[19rem]">
+                <img src="img/heroimg2crop.png" alt="">
+            </div>
+        </div>
+
+        <div>
+            <div class="container flex flex-col items-center text-center justify-between px-12 py-9 space-y-10
+                mx-auto bg-white rounded-3xl md:flex-row mt-10 md:text-start md:space-y-0 md:mt-0">
+                <!-- items -->
+                <div>
+                    <h1 class="font-medium text-black text-[1.4rem]">Location</h1>
+                    <p class="font-normal text-white2Color text-[0.9rem]">New York, California USA <i class='bx bxs-chevron-down' style='color:#ec9c7b'  ></i></p>
+                </div>
+                <div>
+                    <h1 class="font-medium text-black text-[1.4rem]">Type</h1>
+                    <p class="font-normal text-white2Color text-[0.9rem]">Modern & Minimal <i class='bx bxs-chevron-down' style='color:#ec9c7b'  ></i></p>
+                </div>
+                <div>
+                    <h1 class="font-medium text-black text-[1.4rem]">Budget</h1>
+                    <p class="font-normal text-white2Color text-[0.9rem]">$2000-10000 <i class='bx bxs-chevron-down' style='color:#ec9c7b'  ></i></p>
+                </div>
+                <a 
+                    href="#"
+                    class=" p-4 px-9 text-white font-semibold bg-secondColor
+                    rounded-lg text-[1.2rem] hover:bg-thirdColor">
+                    Explore
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Hero -->
+
+
+    <!-- Features -->
+    <section id="features" class="mb-40">
+        <!-- Teks And Button -->
+        <div class="container flex flex-col justify-between items-center md:items-end space-y-8
+            mx-auto md:flex-row mb-20">
+            <div class="flex flex-col items-center md:items-start">
+                <p class="text-xs text-center mb-2
+                    font-medium md:text-xs md:text-left text-secondColor
+                    flex after:content-[''] after:w-[325px] after:h-[2px] after:bg-lineColor
+                    after:mt-2.5 after:ml-2 md:after:w-[330px]">Our Properties
+                </p>
+                <h1 class="max-w-lg text-[2.2rem] mb-5 font-black text-center text-black md:text-start">Our Featured Properties</h1>
+                <p class="max-w-[440px] text-center text-black leading-6 text-[13px] md:text-start">
+                   Better Homes & Gardens encouranges its clients to expect more from
+                   their realtor and promises they're up to the challenge
+                </p>
+            </div>
+            <div>
+                <a 
+                    href="#"
+                    class=" p-4 px-16 text-white font-semibold bg-secondColor
+                    rounded-lg text-[1.2rem] hover:bg-thirdColor inline-block">
+                    Explore
+                </a>
+            </div>
+        </div>
+
+        <!-- Card -->
+        <div>
+            <!-- selection teks -->
+            <div class="container flex justify-between items-center
+                mx-auto mb-40">
+                <div class="space-x-7 text-xs md:text-sm text-black font-medium">
+                    <a href="#" class="hover:text-secondColor">Popular</a>
+                    <a href="#" class="hover:text-secondColor">Private House</a>
+                    <a href="#" class="hover:text-secondColor">Executive Hotel</a>
+                    <a href="#" class="hover:text-secondColor">Private Room</a>
+                    <a href="#" class="hover:text-secondColor">Apartements</a>
+                </div>
+                <div>
+                    <a href="#" class="text-sm text-secondColor font-medium">Explore All </a>
+                </div>
+            </div>
+
+            <!-- card -->
+            <div class="bgcard w-full md:h-[177vh] h-[253vh] rounded-[3rem]">
+                <div class="static container flex items-center pt-16 mb-60 justify-center mx-auto">
+                    <div class="absolute flex container items-center justify-center md:justify-between">
+                        <!-- card 1 -->
+                        <div class="hidden w-[300px] h-[350px] md:block rounded-lg bg-white">
+                            <h4 class="absolute py-2 px-4 rounded-tl-lg bg-secondColor text-white text-xs">$30,000</h4>
+                            <img class="w-auto h-[220px] rounded-t-lg" src="img/cardimg2.jpg" alt="">
+                            <div class="px-5 py-7">
+                                <div class="flex justify-between">
+                                    <h4 class="font-semibold text-lg text-secondColor">New York, Broklyn</h4>
+                                    <h5 class="font-medium text-sm pt-2 text-white2Color">USA</h5>
+                                </div>
+                                <div class="flex items-center justify-between text-xs pt-2 text-white2Color">
+                                    <div class="flex space-x-3">
+                                        <p><i class='bx bx-bed ' style='color:#ec9c7b' ></i> 2 Beds</p>
+                                        <p><i class='bx bx-trending-up' style='color:#ec9c7b'  ></i> 1800m</p>
+                                    </div>
+                                    <a 
+                                        href="#"
+                                        class=" p-3 px-6 text-white font-semibold bg-secondColor
+                                        rounded-md text-xs hover:bg-thirdColor">
+                                        Explore
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- card 2 -->
+                        <div class="w-[300px] h-[350px] rounded-lg bg-white">
+                            <h4 class="absolute py-2 px-4 rounded-tl-lg bg-secondColor text-white text-xs">$30,000</h4>
+                            <img class="w-auto h-[220px] rounded-t-lg" src="img/cardimg1.jpg" alt="">
+                            <div class="px-5 py-7">
+                                <div class="flex justify-between">
+                                    <h4 class="font-semibold text-lg text-secondColor">Los Angeles, Action</h4>
+                                    <h5 class="font-medium text-sm pt-2 text-white2Color">USA</h5>
+                                </div>
+                                <div class="flex items-center justify-between text-xs pt-2 text-white2Color">
+                                    <div class="flex space-x-3">
+                                        <p><i class='bx bx-bed ' style='color:#ec9c7b' ></i> 4 Beds</p>
+                                        <p><i class='bx bx-trending-up' style='color:#ec9c7b'  ></i> 2400m</p>
+                                    </div>
+                                    <a 
+                                        href="#"
+                                        class=" p-3 px-6 text-white font-semibold bg-secondColor
+                                        rounded-md text-xs hover:bg-thirdColor">
+                                        Explore
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- card 3 -->
+                        <div class="hidden w-[300px] h-[350px] md:block rounded-lg bg-white">
+                            <h4 class="absolute py-2 px-4 rounded-tl-lg bg-secondColor text-white text-xs">$30,000</h4>
+                            <img class="w-auto h-[220px] rounded-t-lg" src="img/cardimgs3.jpg" alt="">
+                            <div class="px-5 py-7">
+                                <div class="flex justify-between">
+                                    <h4 class="font-semibold text-lg text-secondColor">Chicago, Uptown</h4>
+                                    <h5 class="font-medium text-sm pt-2 text-white2Color">USA</h5>
+                                </div>
+                                <div class="flex items-center justify-between text-xs pt-2 text-white2Color">
+                                    <div class="flex space-x-3">
+                                        <p><i class='bx bx-bed ' style='color:#ec9c7b' ></i> 5 Beds</p>
+                                        <p><i class='bx bx-trending-up' style='color:#ec9c7b'  ></i> 3200m</p>
+                                    </div>
+                                    <a 
+                                        href="#"
+                                        class=" p-3 px-6 text-white font-semibold bg-secondColor
+                                        rounded-md text-xs hover:bg-thirdColor">
+                                        Explore
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- text -->
+                <div class="container mx-auto flex flex-col space-y-3 items-center justify-between md:flex-row md:space-y-0 md:items-start">
+                    <div class="text-center md:text-start">
+                        <h1 class="font-semibold text-[1.7rem] text-white">Elan Cooper</h1>
+                        <p class="font-semibold text-[0.8rem] text-white3Color">Infinite Group</p>
+                    </div>
+                    <div class="flex space-x-1">
+                        <div class="text-xl text-white3Color"><i class='bx bxs-quote-left'></i></div>
+                        <p class="text-white text-[0.9rem] md:text-[1.2rem] font-medium">Our business is one of close relationships and we are very<br>
+                            fortunate to be able to share so many positive real estate<br>
+                            experiences with out clients
+                        </p>
+                    </div>
+                </div>
+
+                <!-- line -->
+                <div class="container mx-auto bg-white3Color mt-12 h-[1px]"></div>
+
+                <!-- logo -->
+                <div class="container mx-auto grid grid-cols-2 gap-8 justify-items-center items-center md:justify-between md:flex mt-14">
+                    <img class="w-[200px] h-auto" src="img/accenture.png" alt="">
+                    <img class="w-[120px] h-auto" src="img/stripe.png" alt="">
+                    <img class="w-[120px] h-auto" src="img/Foodle.png" alt="">
+                    <img class="w-[180px] h-auto" src="img/Deloitte.png" alt="">
+                </div>
+
+                <!-- services -->
+                <div class="container mx-auto flex flex-col-reverse md:flex-row justify-between mt-32">
+                    <!-- left items -->
+                    <div class="flex justify-center md:justify-normal mt-8 md:mt-0">
+                        <img class="w-[401px] h-auto" src="img/cardimgcopy.png" alt="">
+                    </div>
+
+                    <!-- right items -->
+                    <div class="flex flex-col items-center md:items-start">
+                        <p class="text-xs text-center mb-2
+                            font-medium md:text-xs md:text-left text-white
+                            flex after:content-[''] after:w-[325px] after:h-[2px] after:bg-white3Color
+                            after:mt-2.5 after:ml-2 md:after:w-[330px]">Our Properties
+                        </p>
+                        <h1 class="font-bold text-[2.3rem] md:text-start text-center text-white mb-7">How It Works</h1>
+                        <p class="max-w-[420px] text-center text-white leading-6 mb-14 text-[13px] md:text-start">Better Homes & Gardens encouranges its clients to expect more from
+                           their realtor and promises they're up to the challenge
+                        </p>
+
+                        <div class="grid grid-cols-2 gap-8 font-semibold mb-12 text-white text-[0.8rem]">
+                            <h4><span class="w-[8px] h-[8px] mr-2 rounded-full bg-white inline-block"></span>Comfortable</h4>
+                            <h4><span class="w-[8px] h-[8px] mr-2 rounded-full bg-white inline-block"></span>Strategic</h4>
+                            <h4><span class="w-[8px] h-[8px] mr-2 rounded-full bg-white inline-block"></span>Luxury</h4>
+                            <h4><span class="w-[8px] h-[8px] mr-2 rounded-full bg-white inline-block"></span>High Quality</h4>
+                        </div>
+
+                        <div>
+                            <a 
+                                href="#"
+                                class=" p-4 px-16 text-secondColor font-semibold bg-white
+                                rounded-lg text-[1.2rem] hover:bg-thirdColor inline-block">
+                                Explore
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- card -->
+
+    <!-- Aboout -->
+    <section id="about" class="mb-40">
+        <!-- teks -->
+        <div class="container flex flex-col items-center justify-center space-y-8
+            mx-auto md:flex-row mb-20">
+            <div class="flex flex-col items-center">
+                <p class="text-xs mb-2 text-center
+                    font-medium md:text-xs md:text-left text-secondColor
+                    flex after:content-[''] after:w-[90px] after:h-[2px] after:bg-lineColor
+                    after:mt-2.5 after:ml-2
+                    before:content-[''] before:w-[90px] before:h-[2px] before:bg-lineColor
+                    before:mt-2.5 before:mr-2">About Us
+                </p>
+                <h1 class="max-w-sm text-[2.2rem] mb-5 font-semibold text-center text-black">Entrusted Real Estate As An Agency</h1>
+                <p class="max-w-[440px] text-center text-black leading-6 text-[13px]">
+                   Better Homes & Gardens encouranges its clients to expect more from
+                   their realtor and promises they're up to the challenge
+                </p>
+            </div>
+        </div>
+
+        <!-- about 1 -->
+        <div class="container mx-auto flex justify-between mb-36">
+            <!-- Right Items -->
+            <div class="mt-28">
+                <p class="text-xs text-center mb-2
+                    font-medium md:text-xs md:text-left text-secondColor
+                    flex after:content-[''] after:w-[325px] after:h-[1px] after:bg-white2Color
+                    after:mt-2.5 after:ml-2 md:after:w-[330px]">Our Properties
+                </p>
+                <h1 class="font-bold text-[2.3rem] text-black mb-14">Our Guarantee</h1>
+                <p class="w-[400px] mb-14 text-black">We provide best service with guarantee. We are the
+                   best realtor in country and always bring best option
+                   for our customer or clients. We never compromise on
+                   guarantee. Lorem ipsum dolor sit amet, consectur
+                   adipscing elit. sed do eiusmod tempor.
+                </p>
+                <div>
+                    <a 
+                        href="#"
+                        class=" p-4 px-16 text-white font-semibold bg-secondColor
+                        rounded-lg text-[1.2rem] hover:bg-thirdColor inline-block">
+                        Explore
+                    </a>
+                </div>
+            </div>
+
+            <!-- Left Items -->
+            <div>
+                <img class="w-[400px] h-auto" src="img/abourusimg1.png" alt="">
+            </div>
+        </div>
+
+        <!-- About 2 -->
+        <div class="container mx-auto flex flex-row-reverse justify-between">
+            <!-- Right Items -->
+            <div class="mt-28">
+                <p class="text-xs text-center mb-2
+                    font-medium md:text-xs md:text-left text-secondColor
+                    flex after:content-[''] after:w-[325px] after:h-[1px] after:bg-white2Color
+                    after:mt-2.5 after:ml-2 md:after:w-[330px]">Our Properties
+                </p>
+                <h1 class="font-bold text-[2.3rem] text-black mb-14">Our Price</h1>
+                <p class="w-[400px] mb-14 text-black">We provide best price with satisfaction. We are the
+                   best realtor in country and always bring best option
+                   for our customer or clients. We never compromise on
+                   guarantee. Lorem ipsum dolor sit amet, consectur
+                   adipscing elit. sed do eiusmod tempor.
+                </p>
+                <div>
+                    <a 
+                        href="#"
+                        class=" p-4 px-16 text-white font-semibold bg-secondColor
+                        rounded-lg text-[1.2rem] hover:bg-thirdColor inline-block">
+                        Explore
+                    </a>
+                </div>
+            </div>
+
+            <!-- Left Items -->
+            <div>
+                <img class="w-[400px] h-auto" src="img/aboutusimg2.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- comment -->
+    <section class="mb-40">
+        <div class="container mx-auto flex items-end justify-between h-[50vh] p-14
+            bg-secondColor rounded-3xl">
+            <!-- Right items -->
+            <div class="flex flex-col space-y-7">
+                <h1 class="text-4xl text-white font-semibold">What Our Happy <br> Client Say.</h2>
+                <p class="text-xs text-white font-medium">
+                    Recommendations from our satisfy clients that <br>
+                    affirmsthe value of a product or service
+                </p>
+                <div class="flex space-x-8 text-white">
+                    <i class='bx bx-arrow-back'></i>
+                    <i class='bx bx-arrow-back bx-flip-horizontal' ></i>
+                </div>
+            </div>
+
+            <!-- Left Items -->
+            <div class="h-[20vh] w-[30vw] rounded-xl bg-white">
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- subscribe -->
+    <section id="subscribe" class="mb-40">
+        <div class="container flex flex-col mx-auto items-center justify-center">
+            <!-- teks subs -->
+            <div>
+                <p class="text-xs text-center mb-2
+                font-medium md:text-xs md:text-left text-secondColor
+                flex after:content-[''] after:w-[325px] after:h-[2px] after:bg-lineColor
+                after:mt-2.5 after:ml-2 md:after:w-[200px]">subscribe</p>
+                <h1 class="max-w-sm text-[2.2rem] mb-5 font-semibold text-center text-black">Subscribe To Us</h1>
+            </div>
+
+            <!-- form box -->
+            <div class="container mx-auto flex items-center justify-center">
+                <form class="bg-white rounded-lg w-[800px] h-[60px] flex">
+                    <input type="text" placeholder="Enter your email" class="flex-1 pl-6 border-none outline-none rounded-lg text-xs">
+                    <button type="submit" class="bg-secondColor py-[10px] px-[70px] border-none outline-none text-white
+                        text-[1rem] rounded-lg font-semibold hover:bg-thirdColor">Explore
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="bg-secondColor h-[70vh] mx-auto rounded-t-[3rem]">
+            <!-- cta -->
+            <div class="container mx-auto flex flex-col items-center justify-centerst pt-12"> 
+                <p class="text-xs text-center mb-2
+                    font-medium text-white
+                    flex after:content-[''] after:w-[325px] after:h-[2px] after:bg-white
+                    after:mt-2.5 after:ml-2 md:after:w-[200px]">subscribe
+                </p>
+                <h1 class="max-w-lg text-[2.2rem] mb-5 font-semibold text-center text-white">Need A Little More To Grow?</h1>
+                <a 
+                    href="#"
+                    class=" p-4 px-16 text-secondColor font-semibold bg-white
+                    rounded-lg text-[1.2rem] hover:bg-thirdColor inline-block">
+                    Explore
+                </a>
+            </div>
+
+            <!-- footer -->
+            <div class="container mx-auto flex justify-between pt-14">
+                <!-- items 1 -->
+                <div class="flex flex-col items-start space-y-5">
+                    <h3 class="text-white font-bold text-[1.8rem]">Infinite Group</h3>
+                    <p class="text-white text-[1rem] font-light max-w-[300px]">You'ill find your next home because we are the best property sellers</p>
+                    <div class="space-x-4 text-white">
+                        <a href="#"><i class='bx bxl-instagram'></i></a>
+                        <a href="#"><i class='bx bxl-facebook'></i></a>
+                        <a href="#"><i class='bx bxl-twitter'></i></a>
+                        <a href="#"><i class='bx bxl-discord-alt'></i></a>
+                    </div>
+                </div>
+
+                <!-- items 2 -->
+                <div class="flex flex-col items-start text-white space-y-2">
+                    <h4 class="text-[20px]">Resources</h4>
+                    <div class="flex flex-col font-light text-[0.9rem] space-y-2">
+                        <a href="#">Our Agents</a>
+                        <a href="#">Member Stories</a>
+                        <a href="#">Video</a>
+                        <a href="#">Free Trial</a>
+                    </div>
+                </div>
+
+                <!-- items 3 -->
+                <div class="flex flex-col items-start text-white space-y-2">
+                    <h4 class="text-[20px]">Company</h4>
+                    <div class="flex flex-col font-light text-[0.9rem] space-y-2">
+                        <a href="#">Partnership</a>
+                        <a href="#">Terms of use</a>
+                        <a href="#">Privacy</a>
+                        <a href="#">Sitemap</a>
+                    </div>
+                </div>
+
+                <!-- form -->
+                <div class="flex flex-col space-y-2">
+                    <h4 class="text-[20px] text-white">Get In Touch</h4>
+                    <!-- form box -->
+                    <div>
+                        <form class="bg-white rounded-lg w-[80%] h-[47px] flex items-center">
+                            <input type="text" placeholder="Enter Your Email" class="w-full p-3 bg-transparent border-none
+                                outline-none rounded-lg text-xs">
+                            <button type="submit" class="flex items-center py-[14px] px-[12px] m-[2px] bg-secondColor
+                                border-none outline-none text-white text-[1rem] rounded-lg font-semibold
+                                hover:bg-thirdColor"><i class='bx bx-chevron-right'></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Line
+        <div class="pt-10">
+            <div class="container mx-auto h-[2px] bg-white3Color"></div>
+        </div> -->
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
